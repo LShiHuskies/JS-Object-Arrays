@@ -30,6 +30,15 @@ team[3] = 'Lux';
 console.log(team);
 console.log(players);
 
+const team2 = players.slice();
+
+const team3 = [].concat(players);
+
+const team4 = [...players];
+team4[3] = 'heee haww';
+
+const team5 = Array.from(players);
+
 
 
 
