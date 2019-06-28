@@ -67,3 +67,5 @@ console.log(lou);
 
 
 const dev = Object.assign({}, lou);
+
+const dev2 = JSON.parse(JSON.stringify(lou));
