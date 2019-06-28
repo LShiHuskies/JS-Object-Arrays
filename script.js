@@ -41,9 +41,29 @@ const team5 = Array.from(players);
 
 
 
-
-
 const person = {
   name: 'Wes Bos',
   age: 80
 };
+
+// const captain = person;
+// captain.number = 99;
+
+const cap2 = Object.assign({}, person, { number: 99, age: 12 });
+console.log(cap2);
+// only in React;
+// const cap3 = {...person};
+
+const lou = {
+  name: 'lou',
+  age: 2019,
+  social: {
+    twitter: '@lou',
+    facebook: 'ls'
+  }
+}
+
+console.log(lou);
+
+
+const dev = Object.assign({}, lou);
